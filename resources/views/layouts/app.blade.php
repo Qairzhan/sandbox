@@ -23,9 +23,9 @@
     </div>
 </body>
 </html>
-<script>
-    import RootComponent from "../../js/components/RootComponent";
-    export default {
-        components: {RootComponent}
-    }
-</script>
+{{--<script>--}}
+{{--    import RootComponent from "../../js/components/RootComponent";--}}
+{{--    export default {--}}
+{{--        components: {RootComponent}--}}
+{{--    }--}}
+{{--</script>--}}

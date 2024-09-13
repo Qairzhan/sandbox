@@ -1,0 +1,16 @@
+https://skillbox.ru/media/code/osnovnye-komandy-dlya-raboty-s-git-i-github/
+https://habr.com/ru/companies/ruvds/articles/599929/
+
+ 1) Создание репозитория:git init
+ 2) добавление всех файлов в индекс: git add .
+ 3) проверка индексируемых файлов: git status
+ 4) добавление файлов в репозиторий : git commit -m "Commit message"
+ 5) Команда git branch -M main переименовывает ветку master на локальном репозитории в main. 
+    Таким образом, изменения, произошедшие на удаленном репозитории больше не конфликтуют с локальным хранилищем, в котором главная ветка стала также     называться main.
+ 6) git push origin main
+
+
+  git reset: откат коммита
+
+  7) git pull origin main
+	

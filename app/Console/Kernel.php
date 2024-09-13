@@ -7,23 +7,14 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
-    /**
-     * Define the application's command schedule.
-     *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
-     * @return void
-     */
+    // Тут указывается команда (которую мы прописали в app/Console/Commands/Test.php)
+    // и запускается команда php artisan schedule:work (для запуска расписание)
     protected function schedule(Schedule $schedule)
     {
-        dd("something");
-//       $schedule->command('inspire')->everySecond();
+       $schedule->command('start:cronjob')->everyMinute();
     }
 
-    /**
-     * Register the commands for the application.
-     *
-     * @return void
-     */
+
     protected function commands()
     {
         $this->load(__DIR__.'/Commands');

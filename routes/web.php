@@ -23,7 +23,7 @@ Route::get('test','App\Http\Controllers\ProductController@index')->name('test');
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\TestController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/cars',  CarController::class);
 

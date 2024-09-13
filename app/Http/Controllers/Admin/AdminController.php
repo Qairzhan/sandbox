@@ -19,6 +19,24 @@ class AdminController extends Controller
 {
         public function index()
         {
+
+
+//// Команда для выполнения
+//            $command = "ls -la";
+//
+//// Выполнение команды
+//            $output = [];
+//            $return_var = 0;
+//
+//            exec($command, $output, $return_var);
+//            dd($output);
+//// Вывод результатов
+//            echo "Output:\n";
+//            foreach ($output as $line) {
+//                echo $line . "\n";
+//            }
+//
+//            dd(132);
             $student = Student::find(1);
 //            dd($student->subjects()->toSql())
 //            /*
